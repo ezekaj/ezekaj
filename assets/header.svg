@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="260" viewBox="0 0 1000 260" role="img" aria-label="Elvi Zekaj — Founder of Z.E Digital Tech, forward-deployed AI engineer">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b0f17"/>
+      <stop offset="100%" stop-color="#111827"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ef4444"/>
+      <stop offset="50%" stop-color="#f97316"/>
+      <stop offset="100%" stop-color="#ef4444"/>
+      <animate attributeName="x1" values="0;1;0" dur="8s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="1;2;1" dur="8s" repeatCount="indefinite"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#1f2937" stroke-width="1"/>
+    </pattern>
+    <radialGradient id="glow" cx="0.85" cy="0.2" r="0.6">
+      <stop offset="0%" stop-color="#ef4444" stop-opacity="0.28"/>
+      <stop offset="100%" stop-color="#ef4444" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="c1"><rect x="60" y="168" height="40" width="0">
+      <animate attributeName="width" values="0;640;640;0;0" keyTimes="0;0.12;0.28;0.32;1" dur="12s" repeatCount="indefinite"/>
+    </rect></clipPath>
+    <clipPath id="c2"><rect x="60" y="168" height="40" width="0">
+      <animate attributeName="width" values="0;0;640;640;0;0" keyTimes="0;0.333;0.453;0.613;0.653;1" dur="12s" repeatCount="indefinite"/>
+    </rect></clipPath>
+    <clipPath id="c3"><rect x="60" y="168" height="40" width="0">
+      <animate attributeName="width" values="0;0;640;640;0;0" keyTimes="0;0.666;0.786;0.946;0.986;1" dur="12s" repeatCount="indefinite"/>
+    </rect></clipPath>
+    <style>
+      .name { font: 800 52px -apple-system, "Segoe UI", Inter, Helvetica, Arial, sans-serif; fill: #f9fafb; letter-spacing: -1px; }
+      .role { font: 600 20px -apple-system, "Segoe UI", Inter, Helvetica, Arial, sans-serif; fill: #9ca3af; }
+      .type { font: 500 22px "SFMono-Regular", Menlo, Consolas, "Liberation Mono", monospace; fill: #e5e7eb; }
+      .prompt { font: 700 22px "SFMono-Regular", Menlo, Consolas, monospace; fill: #ef4444; }
+      .cursor { fill: #f97316; animation: blink 1s steps(1) infinite; }
+      .node { fill: #ef4444; animation: pulse 3s ease-in-out infinite; transform-origin: center; transform-box: fill-box; }
+      .n2 { animation-delay: 1s; } .n3 { animation-delay: 2s; }
+      .link { stroke: #374151; stroke-width: 2; stroke-dasharray: 6 6; animation: flow 2s linear infinite; }
+      @keyframes blink { 50% { opacity: 0; } }
+      @keyframes pulse { 0%,100% { opacity: .35; transform: scale(1); } 50% { opacity: 1; transform: scale(1.35); } }
+      @keyframes flow { to { stroke-dashoffset: -24; } }
+      @media (prefers-reduced-motion: reduce) { .cursor, .node, .link { animation: none; } }
+    </style>
+  </defs>
+
+  <rect width="1000" height="260" rx="18" fill="url(#bg)"/>
+  <rect width="1000" height="260" rx="18" fill="url(#grid)" opacity="0.6"/>
+  <rect width="1000" height="260" rx="18" fill="url(#glow)"/>
+  <rect x="24" y="244" width="952" height="5" rx="2.5" fill="url(#accent)"/>
+
+  <!-- little network: business → automation → results -->
+  <line class="link" x1="780" y1="80" x2="870" y2="130"/>
+  <line class="link" x1="870" y1="130" x2="800" y2="190"/>
+  <line class="link" x1="780" y1="80" x2="800" y2="190"/>
+  <circle class="node" cx="780" cy="80" r="9"/>
+  <circle class="node n2" cx="870" cy="130" r="9"/>
+  <circle class="node n3" cx="800" cy="190" r="9"/>
+
+  <text x="60" y="92" class="name">Elvi Zekaj</text>
+  <text x="62" y="128" class="role">Founder, Z.E Digital Tech  ·  Forward-deployed AI engineer  ·  Tirana</text>
+
+  <text x="60" y="196" class="prompt">&gt;</text>
+  <g clip-path="url(#c1)"><text x="86" y="196" class="type">I go into businesses and automate the work.</text></g>
+  <g clip-path="url(#c2)"><text x="86" y="196" class="type">Verto ERP · AI ads engines · voice agents.</text></g>
+  <g clip-path="url(#c3)"><text x="86" y="196" class="type">Running on my own GB10 inference cluster.</text></g>
+  <rect class="cursor" x="86" y="178" width="11" height="24" rx="1">
+    <animate attributeName="x" values="86;660;660;86;86;660;660;86;86;660;660;86;86"
+      keyTimes="0;0.12;0.28;0.32;0.333;0.453;0.613;0.653;0.666;0.786;0.946;0.986;1" dur="12s" repeatCount="indefinite"/>
+  </rect>
+</svg>

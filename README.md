@@ -1,6 +1,12 @@
-# Hi, I'm Elvi 👋
+<p align="center">
+  <img src="./assets/header.svg" alt="Elvi Zekaj — Founder of Z.E Digital Tech, forward-deployed AI engineer" width="100%">
+</p>
 
-**Founder of [Z.E Digital Tech](https://zedigital.tech) · Forward-deployed AI engineer · Tirana, Albania**
+<p align="center">
+  <a href="https://zedigital.tech"><img src="https://img.shields.io/badge/Z.E_Digital_Tech-zedigital.tech-ef4444?style=for-the-badge&logoColor=white" alt="Z.E Digital Tech"></a>
+  <a href="mailto:elvizekaj@zedigital.tech"><img src="https://img.shields.io/badge/Email-elvizekaj@zedigital.tech-111827?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
+  <a href="https://www.linkedin.com/in/elvi-zekaj-240b10243"><img src="https://img.shields.io/badge/LinkedIn-Elvi_Zekaj-0a66c2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+</p>
 
 I go into a business, find the work that eats its time and money, and ship the AI and automation
 it runs on. Then I stay and operate it. Some engagements are paid projects; the best ones are
@@ -52,10 +58,11 @@ cognitive architecture: 38 modules, runs fully offline.
 
 ### Stack
 
-`Python` `TypeScript` `Go` `C/C++`
-`vLLM` `LiveKit` `FastAPI` `RAG` `Agents / tool use`
-`PostgreSQL` `Docker` `Cloudflare Workers` `Linux`
-`React` `Next.js` `Meta Marketing API` `HubSpot`
+<p>
+  <img src="https://skillicons.dev/icons?i=python,ts,go,c,cpp,react,nextjs,nodejs,fastapi,postgres,docker,linux,cloudflare,nginx,githubactions&perline=15" alt="Stack icons">
+</p>
+
+`vLLM` `LiveKit` `RAG` `Agents / tool use` `Meta Marketing API` `HubSpot`
 
 ---
 
@@ -71,3 +78,11 @@ cognitive architecture: 38 modules, runs fully offline.
 and businesses that want AI running in their operations, not just in a demo.
 
 📫 **elvizekaj@zedigital.tech** · [zedigital.tech](https://zedigital.tech)
+
+---
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ezekaj/ezekaj/output/github-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ezekaj/ezekaj/output/github-snake.svg">
+  <img alt="Contribution snake" src="https://raw.githubusercontent.com/ezekaj/ezekaj/output/github-snake.svg">
+</picture>
