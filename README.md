@@ -61,8 +61,8 @@ cognitive architecture: 38 modules, runs fully offline.
 
 ### Background
 
-🎓 42 Heilbronn (completed): peer-to-peer engineering school (C, C++, Unix, algorithms, networking)
-🎓 Universiteti Metropolitan Tirana (current)
+🎓 42 Heilbronn (completed): peer-to-peer engineering school (C, C++, Unix, algorithms, networking)  
+🎓 Universiteti Metropolitan Tirana (current)  
 🌍 Albanian (native) · English (C2) · German (A2)
 
 ---
