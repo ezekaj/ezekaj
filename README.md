@@ -24,14 +24,14 @@ partnerships where I share in the results.
 
 ### What's in production / in flight
 
-🏨 **Verto**: the business system I build (CRM → ERP). Live in production at a hospitality
-complex, running daily operations for a real team.
+🏨 **Verto**: the business system I build (CRM → ERP): ledger, VAT,
+inventory, HR, POS. First deployment on-premises at a hospitality complex (pilot).
 
-📈 **AI ads engine**: connects to a marketing agency's Meta ad accounts, reads performance
-across clients, and drives AI-generated video ads with automated lead follow-up.
+📈 **AI ads engine**: AI-orchestrated Meta ads for a marketing agency's clinic clients.
+Reads performance across accounts today; spend changes go through a human-approved money wall.
 
-📞 **Sofia**: voice AI agent (LiveKit + Gemini Live + cloud PBX) being deployed for a
-dental-tourism call center.
+📞 **Sofia**: voice AI agent (LiveKit Agents + Gemini Live + SIP) for call-center
+first contact. Built and tested; pilot on hold.
 
 🖥️ **Self-hosted inference**: two NVIDIA GB10 (DGX Spark) nodes running vLLM, a 27B model
 with 128K context. Client data stays on our hardware, and inference has no per-token bill.
