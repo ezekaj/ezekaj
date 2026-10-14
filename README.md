@@ -24,19 +24,19 @@ partnerships where I share in the results.
 
 ### What's in production / in flight
 
-🏨 **Verto**: the business system I build (CRM → ERP): ledger, VAT,
+🏨 **[Verto](https://github.com/ezekaj/verto-erp)**: the business system I build (CRM → ERP): ledger, VAT,
 inventory, HR, POS. First deployment on-premises at a hospitality complex (pilot).
 
-📈 **AI ads engine**: AI-orchestrated Meta ads for a marketing agency's clinic clients.
+📈 **[AI ads engine](https://github.com/ezekaj/ze-ads)**: AI-orchestrated Meta ads for a marketing agency's clinic clients.
 Reads performance across accounts today; spend changes go through a human-approved money wall.
 
-📞 **Sofia**: voice AI agent (LiveKit Agents + Gemini Live + SIP) for call-center
+📞 **[Sofia](https://github.com/ezekaj/sofia-voice-agent)**: voice AI agent (LiveKit Agents + Gemini Live + SIP) for call-center
 first contact. Built and tested; pilot on hold.
 
-🖥️ **Self-hosted inference**: two NVIDIA GB10 (DGX Spark) nodes running vLLM, a 27B model
+🖥️ **[Self-hosted inference](https://github.com/ezekaj/gb10-inference)**: two NVIDIA GB10 (DGX Spark) nodes running vLLM, a 27B model
 with 128K context. Client data stays on our hardware, and inference has no per-token bill.
 
-🚦 **[Fanar](https://fanar.zedigitaltech.workers.dev)**: Albanian road-alert PWA on Cloudflare's edge.
+🚦 **[Fanar](https://github.com/ezekaj/fanar)**: Albanian road-alert PWA on Cloudflare's edge ([live app](https://fanar.zedigitaltech.workers.dev)).
 
 ---
 
