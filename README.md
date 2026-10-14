@@ -25,7 +25,7 @@ partnerships where I share in the results.
 ### What's in production / in flight
 
 🏨 **[Verto](https://github.com/ezekaj/verto-erp)**: the business system I build (CRM → ERP): ledger, VAT,
-inventory, HR, POS. First deployment on-premises at a hospitality complex (pilot).
+inventory, HR, POS. Piloted on-site at a hospitality complex in 2026.
 
 📈 **[AI ads engine](https://github.com/ezekaj/ze-ads)**: AI-orchestrated Meta ads for a marketing agency's clinic clients.
 Reads performance across accounts today; spend changes go through a human-approved money wall.
